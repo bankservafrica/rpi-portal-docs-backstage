@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: rpi-portal
+  title: MPP Portal Docs
+  description: External Portal documentation for MPP.
+  annotations:
+    github.com/project-slug: bankservafrica/rpi-portal-docs-backstage
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: RPI Developers
+  lifecycle: experimental
