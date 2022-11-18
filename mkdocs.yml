@@ -1,5 +1,5 @@
 site_name: 'MPP Documentation'
-repo_url: https://github.com/ShazBSA/rpi-portal-docs
+repo_url: https://github.com/bankservafrica/rpi-portal-docs-backstage
 edit_uri: edit/main/docs
 
 nav:
@@ -9,7 +9,9 @@ nav:
   - 'AVS Scenarios': scenarios.md
   - 'AVS Flow Diagrams': Diagrams/Verification.md
   - 'AVSB Flow Diagrams': Diagrams/AVS_BatchFlows.md
+  - 'RTC Examples': RTCexamples.md
   - 'RTC Flow Diagram': Diagrams/RTC.md
+  - 'RTC Mapping': mapping.md
 
 plugins:
   - techdocs-core
