@@ -11,7 +11,12 @@ nav:
   - 'AVSB Flow Diagrams': Diagrams/AVS_BatchFlows.md
   - 'RTC Examples': RTCexamples.md
   - 'RTC Flow Diagram': Diagrams/RTC.md
-  - 'RTC Mapping': mapping.md
+  - 'RTC Mapping BICISO to JSON(verification)': Mapping/BICISO-JSON(verification).md
+  - 'RTC Mapping BICISO to JSON(clearing)': Mapping/BICISO-JSON(clearing).md
+  - 'RTC Mapping JSON to BICISO(verification)': Mapping/JSON-BICISO(verification).md
+  - 'RTC Mapping JSON to BICISO(verification response)': Mapping/JSON-BICISO(verification-response).md
+  - 'RTC Mapping JSON to BICISO(clearing)': Mapping/JSON-BICISO(clearing).md
+  - 'RTC Mapping JSON to BICISO(clearing response)': Mapping/JSON-BICISO(clearing-response).md
 
 plugins:
   - techdocs-core
