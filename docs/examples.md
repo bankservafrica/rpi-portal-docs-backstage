@@ -63,7 +63,7 @@ POST /verification/response/210004
 }
 ```
 
-For a list of possible response codes that may be returned see the Enumerations page.
+For a list of possible response codes that may be returned see the Tables page.
 
 Should, for example, the email details not match those as held by the receiving bank, and the account not be open the account_open and email_match parameter will be returned as false.  
 
