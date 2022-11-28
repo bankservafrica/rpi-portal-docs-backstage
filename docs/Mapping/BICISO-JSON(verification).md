@@ -53,9 +53,9 @@ S-128| Secondary MAC Code | N 16 || 0 - filled for RTC
 
 ## RTC Token
 
- Field Name | Length | Verification Request | 
+Field Name | Length | Verification Request | 
 ---| --- |--- | 
- User Reference | ANS 20 | creditTransferTransaction.<br>remittanceInformation.unstructured[0] | 
+User Reference | ANS 20 | creditTransferTransaction.<br>remittanceInformation.unstructured[0] | 
 Business Reference |AN 10 | creditTransferTransaction.<br>remittanceInformation.unstructured[1]
  From Branch |AN 6 | creditTransferTransaction.<br>debtorAgent.branchNumber
  From Account |N 24 | creditTransferTransaction.<br>debtorAccount
@@ -67,7 +67,7 @@ Beneficiary Echo Data |ANS 20 | n/a |
 
 The BICISO response will echo back values from the BICISO request except where otherwise indicated below
 
-Field Name | Description | BICISO <br>Length/ <br> Other | Verification Response<br>to JSON  | Verification Response<br>from JSON
+Field Name | Description | BICISO<br>Length/ <br>Other | Verification Response<br>to JSON  | Verification Response<br>from JSON |
 --- | --- | --- | --- | --- | 
 P-1|Secondary Bitmap| ANS 16 | n/a | Built up as per BICISO rules  
 P-3|Processing Code| N 6 |  |  
@@ -105,12 +105,12 @@ S-128| Secondary MAC Code | N 16 || 0 - filled for RTC
 
 ## RTC Token
 
- Field Name | Length |  Verification Response
+Field Name | Length |  Verification Response |
 ---| --- |--- | 
- User Reference | ANS 20  | transactionInformation<br>.originalTransactionReference.<br>remittanceInformation.unstructured[0]
+User Reference | ANS 20  | transactionInformation<br>.originalTransactionReference.<br>remittanceInformation.unstructured[0]
 Business Reference |AN 10 | transactionInformation<br>.originalTransactionReference.<br>remittanceInformation.unstructured[1]
- From Branch |AN 6 | transactionInformation.<br>originalTransactionReference.<br>debtorAgent.branchNumber
- From Account |N 24 | transactionInformation.<br>originalTransactionReference.<br>debtorAccount
+From Branch |AN 6 | transactionInformation.<br>originalTransactionReference.<br>debtorAgent.branchNumber
+From Account |N 24 | transactionInformation.<br>originalTransactionReference.<br>debtorAccount
 To Account| N 24 | transactionInformation.<br>originalTransactionReference.<br>creditorAccount
 Originator Echo Data |ANS 20 | transactionInformation.<br>originalTransactionReference.<br>remittanceInformation.structured[0]<br>.additionalRemittanceInformation | transactionInformation.<br>originalTransactionReference.<br>remittanceInformation.structured[0]<br>.additionalRemittanceInformation
 Beneficiary Echo Data |ANS 20 | transactionInformation.<br>originalTransactionReference.<br>remittanceInformation.structured[0]<br>.creditorReferenceInformation

@@ -103,12 +103,12 @@ S-128| Secondary MAC Code | N 16 || 0 - filled for RTC
 
 ## RTC Token
 
- Field Name | Length |  Credit-transfer Response
+ Field Name | Length |  Credit-transfer Response |
 ---| --- |--- | 
- User Reference | ANS 20  | transactionInformation<br>.originalTransactionReference.<br>remittanceInformation.unstructured[0]
+User Reference | ANS 20  | transactionInformation<br>.originalTransactionReference.<br>remittanceInformation.unstructured[0]
 Business Reference |AN 10 | transactionInformation.<br>originalTransactionReference.<br>remittanceInformation.unstructured[1]
- From Branch |AN 6 | transactionInformation.<br>originalTransactionReference.<br>debtorAgent.branchNumber
- From Account |N 24 | transactionInformation.<br>originalTransactionReference.<br>debtorAccount
+From Branch |AN 6 | transactionInformation.<br>originalTransactionReference.<br>debtorAgent.branchNumber
+From Account |N 24 | transactionInformation.<br>originalTransactionReference.<br>debtorAccount
 To Account| N 24 | transactionInformation.<br>originalTransactionReference.<br>creditorAccount
 Originator Echo Data |ANS 20 | transactionInformation.<br>originalTransactionReference.<br>remittanceInformation.structured[0]<br>.additionalRemittanceInformation | transactionInformation<br>.remittanceInformation.structured[0]<br>.additionalRemittanceInformation
 Beneficiary Echo Data |ANS 20 | transactionInformation.<br>originalTransactionReference.<br>remittanceInformation.structured[0]<br>.creditorReferenceInformation
